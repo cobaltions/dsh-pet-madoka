@@ -1,0 +1,22 @@
+# 本仓库只发布代码；模型 / 贴图 / 语音等受版权保护的素材不进仓库。
+# 素材导入方法见 README「导入素材」与 tools/。
+
+# 受版权保护的模型与语音（用你手里的工坊包自行导入）
+pet/assets/live2d/madokatv/
+pet/assets/live2d/madoka/
+pet/assets/voice/
+pet/assets/icon.png
+pet/assets/avatar.png
+pet/assets/preview.png
+
+# 本地生成/运行产物
+docs/demo-*.png
+docs/model-options/
+tools/lead/
+tools/runtime-prober/
+tools/model-smith/
+tools/content-maker/
+reference/
+node_modules/
+*.log
+.DS_Store
