@@ -1,0 +1,57 @@
+{
+  "name": "dsh-pet-madoka",
+  "version": "1.0.0",
+  "description": "鹿目圆桌面桌宠（DeepSeek Harness 版）：透明置顶 Electron 窗口 + Live2D + 气泡台词 + 状态面板，接管对话提问 / 风险审批 / 任务进程；模型与语音素材需自备（见 README）",
+  "type": "module",
+  "main": "lib/index.js",
+  "author": "cobaltions <https://github.com/cobaltions>",
+  "contributors": [
+    "柒柒 <https://github.com/bestlike093>（原 dsh-cyrene-pet 作者，MIT 代码基础）"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobaltions/dsh-pet-madoka.git"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "pet",
+    "tools",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-pet",
+    "live2d",
+    "madoka",
+    "魔法少女小圆"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "title": "dsh-pet-Madoka",
+  "homepage": "https://github.com/cobaltions/dsh-pet-madoka#readme",
+  "bugs": {
+    "url": "https://github.com/cobaltions/dsh-pet-madoka/issues"
+  }
+}
