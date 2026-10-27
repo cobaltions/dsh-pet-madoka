@@ -31,7 +31,13 @@
 - 音效 `pet/assets/sound/*.wav`：Python + numpy 合成（正弦分音 + 指数衰减包络），随代码 MIT
 - 台词 / 提问 / 文案内容包 `pet/assets/content/madoka-content.json`：随代码 MIT
 
-## 4. 上游代码
+## 4. 素材例外
+
+本仓库**不包含**模型、贴图、语音、角色立绘等素材，也不对这些素材授权。
+使用者自行导入的素材仅限个人使用，不得再分发或商用。素材版权归原权利人
+（Magica Quartet / Aniplex、Magia Record Partners、模型作者等）。
+
+## 5. 上游代码
 
 本项目基于 [bestlike093/dsh-cyrene-balance](https://github.com/bestlike093/dsh-cyrene-balance)
 的 `dsh-cyrene-pet`（MIT，作者 柒柒 / bestlike093）改造，保留其 MIT 许可与署名。
